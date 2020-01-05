@@ -3,12 +3,73 @@
 <head>
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Lato:900&display=swap" rel="stylesheet">
+    <style>
+        html, body {
+            height: 100%;
+            color: #ffffff;
+            text-align: center;
+            font-family: 'Lato', sans-serif;
+            overflow: no-content;
+        }
+        body {
+            /* The image used */
+            background-image: url("./img/water-background.png");
 
+            /* Full height */
+            height: 100%;
+
+            /* Center and scale the image nicely */
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .logo {
+            font-size: 5rem;
+            margin-bottom: 0;
+        }
+        .tagline {
+            margin-top: 10rem;
+            font-size: 2rem;
+        }
+        .callToAction{
+            margin-top: 4rem;
+            display: flex;
+            justify-content: center;
+        }
+        .button {
+            margin: 1rem;
+            border: #ffffff 2px solid;
+            border-radius: 4px;
+            width: 10rem;
+            height: 4rem;
+            line-height: 4rem;
+            font-size: 1.3rem;
+        }
+        a, a:visited {
+            text-decoration: none;
+            color: white;
+        }
+    </style>
 </head>
 <body>
 
-<h1>Caferace</h1>
-<p>Ena regel ff tekst en een ontwerp</p>
+<h1 class="logo">Caferace</h1>
+<p>17-19 maart, Friesland</p>
+<p class="tagline">Is jouw boot de snelste om alle cafes langs te gaan?</p>
+
+<div class="callToAction">
+    <a href="https://tickets.caferace.nl/Loefbijter/caferace">
+        <div class="button">
+            <span>Bestel tickets</span>
+        </div>
+    </a>
+    <a href="info.html">
+        <div class="button">
+            <span>lees meer</span>
+        </div>
+    </a>
+</div>
 
 </body>
 </html>
