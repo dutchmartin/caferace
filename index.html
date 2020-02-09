@@ -5,17 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css?family=Lato:900&display=swap" rel="stylesheet">
     <style>
-
-input, textarea {
-  -webkit-appearance: none;
-  -webkit-border-radius:0px;
-}
+        input, textarea {
+          -webkit-appearance: none;
+          -webkit-border-radius:0px;
+        }
 
         html, body {
             color: #ffffff;
             text-align: center;
             font-family: 'Lato', sans-serif;
             overflow: no-content;
+            padding: 0;
+            margin: 0;
         }
         html {
             /* The image used */
@@ -90,9 +91,40 @@ input, textarea {
                 font-size: 10px;
             }
         }
+        header {
+            color: white;
+            background-color: #FEB13F;
+            margin: 0;
+            padding: 5px 20px;
+            height: 70px;
+            display: flex;
+            flex-flow: row;
+            border-bottom: white 1px solid;
+        }
+        #logo-img {
+            width: 70px;
+        }
+        header li {
+            text-decoration: none;
+            list-style: none;
+            display: inline-block;
+            margin: 20px;
+        }
     </style>
 </head>
 <body>
+<header>
+    <div id="logo">
+        <img id="logo-img" src="img/caferace.jpg">
+    </div>
+    <nav>
+        <ul>
+            <li><a href="/">home</a></li>
+            <li><a href="/">info</a></li>
+            <li><a href="/">locatie</a></li>
+        </ul>
+    </nav>
+</header>
 
 <h1 class="logo">Caferace</h1>
 <p>17-19 april, Friesland</p>
