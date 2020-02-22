@@ -9,5 +9,5 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    - name: Jekyll Action
-      uses: helaili/jekyll-action@1.0
+    - name: GitHub Pages Deploy
+      uses: maxheld83/ghpages@v0.2.1
