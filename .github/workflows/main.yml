@@ -1,0 +1,20 @@
+name: Build and deploy site
+
+on: [push]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Setup Ruby for use with actions
+      uses: actions/setup-ruby@v1.0.0
+    - name: Setup Jekyll
+      run: gem install jekyll bundler
+    - name: Build site
+      run: bundler install && jekyll build
+    - name: Debug
+      run: cat ./_site/index.html
+        
