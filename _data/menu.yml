@@ -1,0 +1,12 @@
+items:
+
+  - title: Home
+    url: index.html
+
+  - title: Info
+    url: info.html
+
+  - title: Algemene voorwaarden
+    url: voorwaarden.html
+#  - title: Locatie
+#    url: locatie.html
