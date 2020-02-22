@@ -1,6 +1,6 @@
 .idea
 .DS_store
-_site/
+build
 .sass-cache/
 .jekyll-cache/
 .jekyll-metadata

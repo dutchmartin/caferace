@@ -31,6 +31,7 @@ url: "https://caferace.nl" # the base hostname & protocol for your site, e.g. ht
 theme: theme
 sass:
   style: compressed
+destination: ./build
 
 compress_html:
   clippings: []
