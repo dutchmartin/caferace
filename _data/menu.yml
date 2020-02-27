@@ -6,6 +6,9 @@ items:
   - title: Info
     url: info.html
 
+  - title: Contact
+    url: contact.html
+
   - title: Algemene voorwaarden
     url: voorwaarden.html
 #  - title: Locatie
