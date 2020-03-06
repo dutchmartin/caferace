@@ -8,7 +8,7 @@ layout: compress
     <title>Caferace - {{ page.title }}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css?family=Lato:900|Varela+Round&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/css/styles.css?v={{ site.time | date:'%s' }}">
     <script>
         function doOnLoad() {
             document.getElementById("toggle").onclick = function () {
