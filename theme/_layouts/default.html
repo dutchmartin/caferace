@@ -8,7 +8,7 @@ layout: compress
     <title>Caferace - {{ page.title }}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content= "De Caférace is een studenten zeilwedstrijd waarbij er gevaren wordt van kroeg naar kroeg. Het doel? Zoveel mogelijk punten verzamelen door kroegen af te gaan." />
-    <link href="https://fonts.googleapis.com/css?family=Lato:900|Varela+Round&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?Varela+Round&swap=true" rel="stylesheet">
     <link rel="stylesheet" href="/css/styles.css?v={{ site.time | date:'%s' }}">
     <script>
         function doOnLoad() {
@@ -19,7 +19,7 @@ layout: compress
                 } else {
                     overlay.className = "overlay";
                 }
-            }gp
+            }
         }
         window.onload = doOnLoad;
     </script>
@@ -38,7 +38,6 @@ layout: compress
         <div class="button_container" id="toggle"><span class="top"></span><span class="middle"></span><span class="bottom"></span></div>
     </div>
 </header>
-
 
 {{ content }}
 
