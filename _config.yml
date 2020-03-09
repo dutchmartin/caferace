@@ -61,3 +61,7 @@ compress_html:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+url: "https://caferace.nl" # the base hostname & protocol for the site
+plugins:
+  - jekyll-sitemap
